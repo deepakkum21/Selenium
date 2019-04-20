@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ExplicitWaitInSelenium",
+            "request": "launch",
+            "mainClass": "com.deepak.stpl.selenium.ExplicitWaitInSelenium",
+            "projectName": "SeleniumDemoPro"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - WaitInSelenium",
+            "request": "launch",
+            "mainClass": "com.deepak.stpl.selenium.WaitInSelenium",
+            "projectName": "SeleniumDemoPro"
+        }
+    ]
+}

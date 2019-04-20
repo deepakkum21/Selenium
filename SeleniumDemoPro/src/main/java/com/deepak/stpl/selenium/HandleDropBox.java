@@ -1,5 +1,7 @@
 package com.deepak.stpl.selenium;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -11,6 +13,10 @@ public class HandleDropBox {
 
         // to maximize the window
         chromeDriver.manage().window().maximize();
+        chromeDriver.manage().deleteAllCookies();
+
+        // It is dynamically timeout i.e. it waits till the specified time or if element load 
+        chromeDriver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
 
         chromeDriver.get("https://demo2.bpitechnologies.com");
 
