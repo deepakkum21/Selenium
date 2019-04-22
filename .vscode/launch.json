@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - HandleDropBox",
+            "request": "launch",
+            "mainClass": "com.deepak.stpl.selenium.HandleDropBox",
+            "projectName": "SeleniumDemoPro"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FluentWaitInSelenium",
+            "request": "launch",
+            "mainClass": "com.deepak.stpl.selenium.FluentWaitInSelenium",
+            "projectName": "SeleniumDemoPro"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ExplicitWaitInSelenium",
             "request": "launch",
             "mainClass": "com.deepak.stpl.selenium.ExplicitWaitInSelenium",
