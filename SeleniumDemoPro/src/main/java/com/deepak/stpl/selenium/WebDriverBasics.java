@@ -5,22 +5,27 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 public class WebDriverBasics {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		// 1. for firefox
-		System.setProperty("webdriver.gecko.driver", "E:\\deepak\\selenium-grid\\geckodriver.exe");
-		WebDriver driver = new FirefoxDriver();
-		driver.get("http://www.google.com");
+		System.setProperty("webdriver.gecko.driver", "src\\main\\resources\\geckodriver.exe");
+		WebDriver firefoxDriver = new FirefoxDriver();
+		firefoxDriver.get("http://www.google.com");
 
-		System.setProperty("webdriver.chrome.driver", "E:\\deepak\\selenium-grid\\chromedriver.exe");
+		/*System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\chromedriver.exe");
 		WebDriver chromeDriver = new ChromeDriver();
-		chromeDriver.get("http://www.google.com");
+		chromeDriver.get("http://www.google.com");*/
 
-		chromeDriver.getCurrentUrl();
+		firefoxDriver.getCurrentUrl();
+		firefoxDriver.getPageSource();
+		firefoxDriver.getTitle();
+		
+		/*chromeDriver.getCurrentUrl();
 		chromeDriver.getPageSource();
-		chromeDriver.getTitle();
+		chromeDriver.getTitle();*/
 
-		chromeDriver.quit();
-		driver.quit();
+		//chromeDriver.quit();
+		firefoxDriver.wait(120);
+		firefoxDriver.quit();
 		
 	}
 

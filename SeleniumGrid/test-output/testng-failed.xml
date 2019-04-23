@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Google Search Tests]" parallel="tests">
+  <parameter name="node" value="http://10.4.48.210:4546"/>
+  <parameter name="os" value="windows"/>
+  <parameter name="url" value="https://www.google.com/"/>
+  <test thread-count="5" name="Tests on Chrome(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="GoogleSearchTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="closeBrowser"/>
+          <include name="googleSearchButtonTest"/>
+        </methods>
+      </class> <!-- GoogleSearchTest -->
+    </classes>
+  </test> <!-- Tests on Chrome(failed) -->
+  <test thread-count="5" name="Tests on Firefox(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="GoogleSearchTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="closeBrowser"/>
+          <include name="googleSearchButtonTest"/>
+        </methods>
+      </class> <!-- GoogleSearchTest -->
+    </classes>
+  </test> <!-- Tests on Firefox(failed) -->
+</suite> <!-- Failed suite [Google Search Tests] -->

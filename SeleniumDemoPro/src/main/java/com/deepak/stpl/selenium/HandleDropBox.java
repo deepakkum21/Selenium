@@ -12,7 +12,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class HandleDropBox {
     public static void main(String... strings) {
         // System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\chromedriver.exe");
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\deepak\\Desktop\\Git\\Selenium\\Selenium\\SeleniumDemoPro\\src\\main\\resources\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\chromedriver.exe");
         WebDriver chromeDriver = new ChromeDriver();
 
         // to maximize the window

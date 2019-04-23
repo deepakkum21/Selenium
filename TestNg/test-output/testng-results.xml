@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="36" started-at="2019-04-23T12:32:46Z" finished-at="2019-04-23T12:32:46Z">
+    <groups>
+    </groups>
+    <test name="test1" duration-ms="36" started-at="2019-04-23T12:32:46Z" finished-at="2019-04-23T12:32:46Z">
+      <class name="com.stpl.deepak.testng.parameter.ParamTestWithDataProvider2">
+        <test-method status="PASS" signature="testMethod(com.stpl.deepak.testng.parameter.Bean)[pri:0, instance:com.stpl.deepak.testng.parameter.ParamTestWithDataProvider2@31a5c39e]" name="testMethod" duration-ms="10" started-at="2019-04-23T12:32:46Z" data-provider="test1" finished-at="2019-04-23T12:32:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.stpl.deepak.testng.parameter.Bean@5f282abb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+      </class> <!-- com.stpl.deepak.testng.parameter.ParamTestWithDataProvider2 -->
+    </test> <!-- test1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>
