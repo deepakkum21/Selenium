@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [CompanyMasterSuite]">
+  <parameter name="driver" value="webdriver.chrome.driver"/>
+  <parameter name="driverpath" value="C:\\Users\\deepak.kumar.SYSBIZ.000\\Downloads\\chromedriver_win32\\chromedriver.exe"/>
+  <parameter name="excelPath" value="src\\test\\resources\\excel\\CompanyMaster.xlsx"/>
+  <parameter name="url" value="https://demo2.bpitechnologies.com"/>
+  <test thread-count="5" name="login(failed)">
+    <classes>
+      <class name="com.stpl.deepak.gtn.login.LoginTest">
+        <methods>
+          <include name="loginTest" invocation-numbers="0"/>
+          <include name="loadingDriver"/>
+          <include name="getExcelFile"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- com.stpl.deepak.gtn.login.LoginTest -->
+    </classes>
+  </test> <!-- login(failed) -->
+</suite> <!-- Failed suite [CompanyMasterSuite] -->

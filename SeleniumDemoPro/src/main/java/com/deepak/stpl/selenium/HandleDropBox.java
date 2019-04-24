@@ -6,6 +6,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.remote.CapabilityType;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -13,6 +15,14 @@ public class HandleDropBox {
     public static void main(String... strings) {
         // System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\chromedriver.exe");
         System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\chromedriver.exe");
+        DesiredCapabilities acceptSSLCertificate = DesiredCapabilities.chrome();
+
+      //Setting capability to accept SSL certificates
+      acceptSSLCertificate.setCapability(CapabilityType.PAGE_LOAD_STRATEGY, false);
+
+      //Binding the capabilities to a new instance of chrome browser
+      @SuppressWarnings("deprecation")
+	WebDriver driver = new ChromeDriver(acceptSSLCertificate);
         WebDriver chromeDriver = new ChromeDriver();
 
         // to maximize the window
@@ -39,6 +49,7 @@ public class HandleDropBox {
                 chromeDriver.findElement(By.id("_com_liferay_login_web_portlet_LoginPortlet_password"))
                         .sendKeys("test");
                 clickOn(chromeDriver,chromeDriver.findElement(By.className("lfr-btn-label")),40);
+               // clickOn(chromeDriver,chromeDriver.findElement(By.id("_com_liferay_login_web_portlet_LoginPortlet_wkmi")),40);
                 // System.out.println(chromeDriver.getCurrentUrl());
             }
         }
@@ -49,6 +60,8 @@ public class HandleDropBox {
 
     private static void clickAfterLogin(WebDriver chromeDriver) {
         //chromeDriver.findElement(By.linkText("Global Files")).click();
+    	chromeDriver.navigate().refresh();
+    	chromeDriver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
         clickOn(chromeDriver,chromeDriver.findElement(By.xpath("//*[contains(text(), ' Global Files ')]")),20);
         clickOn(chromeDriver,chromeDriver.findElement(By.xpath("//span[contains(text(),'Company Master')]")),40);
         

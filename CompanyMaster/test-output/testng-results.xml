@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="CompanyMasterSuite" duration-ms="16907" started-at="2019-04-24T13:48:42Z" finished-at="2019-04-24T13:48:59Z">
+    <groups>
+    </groups>
+    <test name="login" duration-ms="16907" started-at="2019-04-24T13:48:42Z" finished-at="2019-04-24T13:48:59Z">
+      <class name="com.stpl.deepak.gtn.login.LoginTest">
+        <test-method status="PASS" signature="getExcelFile(java.lang.String)[pri:0, instance:com.stpl.deepak.gtn.login.LoginTest@3327bd23]" name="getExcelFile" is-config="true" duration-ms="412" started-at="2019-04-24T13:48:42Z" finished-at="2019-04-24T13:48:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[src\\test\\resources\\excel\\CompanyMaster.xlsx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getExcelFile -->
+        <test-method status="PASS" signature="loadingDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stpl.deepak.gtn.login.LoginTest@3327bd23]" name="loadingDriver" is-config="true" duration-ms="2875" started-at="2019-04-24T13:48:42Z" finished-at="2019-04-24T13:48:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[webdriver.chrome.driver]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[src\\test\\resources\\driver\\chromedriver.exe]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://demo2.bpitechnologies.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadingDriver -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.stpl.deepak.gtn.login.LoginTest@3327bd23]" name="loginTest" duration-ms="14012" started-at="2019-04-24T13:48:45Z" data-provider="getData" finished-at="2019-04-24T13:48:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[john.smith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.stpl.deepak.gtn.login.LoginTest@3327bd23]" name="cleanUp" is-config="true" duration-ms="0" started-at="2019-04-24T13:48:59Z" finished-at="2019-04-24T13:48:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- com.stpl.deepak.gtn.login.LoginTest -->
+    </test> <!-- login -->
+  </suite> <!-- CompanyMasterSuite -->
+</testng-results>
