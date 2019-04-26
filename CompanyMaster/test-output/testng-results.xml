@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="CompanyMasterSuite" duration-ms="16907" started-at="2019-04-24T13:48:42Z" finished-at="2019-04-24T13:48:59Z">
+  <suite name="CompanyMasterSuite" duration-ms="36052" started-at="2019-04-26T12:06:51Z" finished-at="2019-04-26T12:07:27Z">
     <groups>
     </groups>
-    <test name="login" duration-ms="16907" started-at="2019-04-24T13:48:42Z" finished-at="2019-04-24T13:48:59Z">
-      <class name="com.stpl.deepak.gtn.login.LoginTest">
-        <test-method status="PASS" signature="getExcelFile(java.lang.String)[pri:0, instance:com.stpl.deepak.gtn.login.LoginTest@3327bd23]" name="getExcelFile" is-config="true" duration-ms="412" started-at="2019-04-24T13:48:42Z" finished-at="2019-04-24T13:48:42Z">
+    <test name="companyAdd" duration-ms="36052" started-at="2019-04-26T12:06:51Z" finished-at="2019-04-26T12:07:27Z">
+      <class name="com.stpl.deepak.gtn.companymaster.AddCompanyTest">
+        <test-method status="PASS" signature="getExcelFile(java.lang.String)[pri:0, instance:com.stpl.deepak.gtn.companymaster.AddCompanyTest@544fe44c]" name="getExcelFile" is-config="true" duration-ms="413" started-at="2019-04-26T12:06:51Z" finished-at="2019-04-26T12:06:51Z">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getExcelFile -->
-        <test-method status="PASS" signature="loadingDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stpl.deepak.gtn.login.LoginTest@3327bd23]" name="loadingDriver" is-config="true" duration-ms="2875" started-at="2019-04-24T13:48:42Z" finished-at="2019-04-24T13:48:45Z">
+        <test-method status="PASS" signature="loadingDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stpl.deepak.gtn.companymaster.AddCompanyTest@544fe44c]" name="loadingDriver" is-config="true" duration-ms="34793" started-at="2019-04-26T12:06:51Z" finished-at="2019-04-26T12:07:26Z">
           <params>
             <param index="0">
               <value>
@@ -39,27 +39,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadingDriver -->
-        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.stpl.deepak.gtn.login.LoginTest@3327bd23]" name="loginTest" duration-ms="14012" started-at="2019-04-24T13:48:45Z" data-provider="getData" finished-at="2019-04-24T13:48:59Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[john.smith]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[test]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="addCompany()[pri:0, instance:com.stpl.deepak.gtn.companymaster.AddCompanyTest@544fe44c]" name="addCompany" duration-ms="6" started-at="2019-04-26T12:07:26Z" finished-at="2019-04-26T12:07:26Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.stpl.deepak.gtn.login.LoginTest@3327bd23]" name="cleanUp" is-config="true" duration-ms="0" started-at="2019-04-24T13:48:59Z" finished-at="2019-04-24T13:48:59Z">
+        </test-method> <!-- addCompany -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.stpl.deepak.gtn.companymaster.AddCompanyTest@544fe44c]" name="cleanUp" is-config="true" duration-ms="1238" started-at="2019-04-26T12:07:26Z" finished-at="2019-04-26T12:07:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-      </class> <!-- com.stpl.deepak.gtn.login.LoginTest -->
-    </test> <!-- login -->
+      </class> <!-- com.stpl.deepak.gtn.companymaster.AddCompanyTest -->
+    </test> <!-- companyAdd -->
   </suite> <!-- CompanyMasterSuite -->
 </testng-results>

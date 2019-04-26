@@ -102,7 +102,7 @@
                     <div class="method-list-content passed suite-CompanyMasterSuite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-CompanyMasterSuite" title="com.stpl.deepak.gtn.login.LoginTest" hash-for-method="loginTest(john.smith, test)">loginTest(john.smith, test)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-CompanyMasterSuite" title="com.stpl.deepak.gtn.companymaster.AddCompanyTest" hash-for-method="addCompany">addCompany</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-CompanyMasterSuite -->
@@ -120,15 +120,14 @@
           <div class="suite-CompanyMasterSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.stpl.deepak.gtn.login.LoginTest</span>
+              <span class="class-name">com.stpl.deepak.gtn.companymaster.AddCompanyTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="loginTest(john.smith, test)">
-                  </a> <!-- loginTest(john.smith, test) -->
-                  <span class="method-name">loginTest</span>
-                  <span class="parameters">(john.smith, test)</span>
+                  <a name="addCompany">
+                  </a> <!-- addCompany -->
+                  <span class="method-name">addCompany</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -147,11 +146,11 @@
   &lt;parameter name=&quot;driverpath&quot; value=&quot;src\\test\\resources\\driver\\chromedriver.exe&quot;/&gt;
   &lt;parameter name=&quot;excelPath&quot; value=&quot;src\\test\\resources\\excel\\CompanyMaster.xlsx&quot;/&gt;
   &lt;parameter name=&quot;url&quot; value=&quot;https://demo2.bpitechnologies.com&quot;/&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;login&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;companyAdd&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.stpl.deepak.gtn.login.LoginTest&quot;/&gt;
+      &lt;class name=&quot;com.stpl.deepak.gtn.companymaster.AddCompanyTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- login --&gt;
+  &lt;/test&gt; &lt;!-- companyAdd --&gt;
 &lt;/suite&gt; &lt;!-- CompanyMasterSuite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -163,7 +162,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">login (1 class)</span>
+                <span class="test-name">companyAdd (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -191,14 +190,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'loginTest')
-data.setCell(0, 2, 'com.stpl.deepak.gtn.login.LoginTest')
-data.setCell(0, 3, 14012);
+data.setCell(0, 1, 'addCompany')
+data.setCell(0, 2, 'com.stpl.deepak.gtn.companymaster.AddCompanyTest')
+data.setCell(0, 3, 6);
 window.suiteTableData['CompanyMasterSuite']= { tableData: data, tableDiv: 'times-div-CompanyMasterSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 14 seconds</span>
+              <span class="suite-total-time">Total running time: 6 ms</span>
               <div id="times-div-CompanyMasterSuite">
               </div> <!-- times-div-CompanyMasterSuite -->
             </div> <!-- times-div -->
@@ -224,22 +223,22 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.stpl.deepak.gtn.login.LoginTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.stpl.deepak.gtn.companymaster.AddCompanyTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">getExcelFile(src\\test\\resources\\excel\\CompanyMaster.xlsx)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-test before">
                 <span class="method-name">loadingDriver(webdriver.chrome.driver, src\\test\\resources\\driver\\chromedriver.exe, https://demo2.bpitechnologi...)</span>
-                <span class="method-start">413 ms</span>
+                <span class="method-start">415 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
-                <span class="method-name">loginTest(john.smith, test)</span>
-                <span class="method-start">3305 ms</span>
+                <span class="method-name">addCompany</span>
+                <span class="method-start">35219 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">cleanUp</span>
-                <span class="method-start">17319 ms</span>
+                <span class="method-start">35227 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

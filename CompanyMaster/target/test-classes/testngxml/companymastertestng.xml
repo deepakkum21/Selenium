@@ -6,9 +6,15 @@
 <parameter name="driver" value="webdriver.chrome.driver"></parameter>
 <parameter name="driverpath" value="src\\test\\resources\\driver\\chromedriver.exe"></parameter>
 <parameter name="url" value="https://demo2.bpitechnologies.com"/>
-   <test name = "login">
+   <!-- <test name = "login">
       <classes>
          <class name = "com.stpl.deepak.gtn.login.LoginTest" />
+      </classes>
+   </test> -->
+   
+   <test name = "companyAdd">
+      <classes>
+         <class name = "com.stpl.deepak.gtn.companymaster.AddCompanyTest" />
       </classes>
    </test>
 </suite>
