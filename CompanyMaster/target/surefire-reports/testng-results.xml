@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="CompanyMasterSuite" duration-ms="38425" started-at="2019-04-28T14:29:39Z" finished-at="2019-04-28T14:30:18Z">
+    <groups>
+    </groups>
+    <test name="companyAdd" duration-ms="38425" started-at="2019-04-28T14:29:39Z" finished-at="2019-04-28T14:30:18Z">
+      <class name="com.stpl.deepak.gtn.companymaster.AddCompanyTest">
+        <test-method status="PASS" signature="getExcelFile(java.lang.String)[pri:0, instance:com.stpl.deepak.gtn.companymaster.AddCompanyTest@5034c75a]" name="getExcelFile" is-config="true" duration-ms="848" started-at="2019-04-28T14:29:39Z" finished-at="2019-04-28T14:29:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[src\\test\\resources\\excel\\CompanyMaster.xlsx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getExcelFile -->
+        <test-method status="PASS" signature="loadingDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stpl.deepak.gtn.companymaster.AddCompanyTest@5034c75a]" name="loadingDriver" is-config="true" duration-ms="36838" started-at="2019-04-28T14:29:39Z" finished-at="2019-04-28T14:30:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[webdriver.chrome.driver]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[src\\test\\resources\\driver\\chromedriver.exe]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://demo2.bpitechnologies.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadingDriver -->
+        <test-method status="PASS" signature="addCompany()[pri:0, instance:com.stpl.deepak.gtn.companymaster.AddCompanyTest@5034c75a]" name="addCompany" duration-ms="4" started-at="2019-04-28T14:30:16Z" finished-at="2019-04-28T14:30:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCompany -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.stpl.deepak.gtn.companymaster.AddCompanyTest@5034c75a]" name="cleanUp" is-config="true" duration-ms="1551" started-at="2019-04-28T14:30:16Z" finished-at="2019-04-28T14:30:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- com.stpl.deepak.gtn.companymaster.AddCompanyTest -->
+    </test> <!-- companyAdd -->
+  </suite> <!-- CompanyMasterSuite -->
+</testng-results>

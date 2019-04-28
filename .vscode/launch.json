@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - DropDownWithSelect",
+            "request": "launch",
+            "mainClass": "com.stpl.deepak.test.DropDownWithSelect",
+            "projectName": "CompanyMaster"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DropDownWithSelect",
+            "request": "launch",
+            "mainClass": "com.deepak.stpl.selenium.DropDownWithSelect",
+            "projectName": "SeleniumDemoPro"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - HandleDropBox",
             "request": "launch",
             "mainClass": "com.deepak.stpl.selenium.HandleDropBox",

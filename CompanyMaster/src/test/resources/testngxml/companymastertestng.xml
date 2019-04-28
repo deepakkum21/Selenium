@@ -6,7 +6,7 @@
 <parameter name="driver" value="webdriver.chrome.driver"></parameter>
 <parameter name="driverpath" value="src\\test\\resources\\driver\\chromedriver.exe"></parameter>
 <parameter name="url" value="https://demo2.bpitechnologies.com"/>
-   <!-- <test name = "login">
+  <!--  <test name = "login">
       <classes>
          <class name = "com.stpl.deepak.gtn.login.LoginTest" />
       </classes>
