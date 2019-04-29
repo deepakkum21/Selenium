@@ -4,6 +4,8 @@ import static org.testng.Assert.assertEquals;
 
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -55,15 +57,39 @@ public class AddCompanyTest {
 			WebElement element = findProType.findPropertyType(propertyType, chromeDriver, propertyName);
 			System.out.println(element);
 			if ("Entertext".equalsIgnoreCase(action)) {
-				findAction.applyAction(element, action, readFile.getData(testCaseSheetNo, row, 1));
+				findAction.applyAction(element, action, readFile.getData(testCaseSheetNo, row, 1).replace("'", ""));
+			} else if ("Combobox".equalsIgnoreCase(action)) {
+				System.out.println(element.getText()+"--------------------");
+				element.sendKeys(Keys.chord(Keys.CONTROL,"a", Keys.DELETE));
+				String textValue = readFile.getData(testCaseSheetNo, row, 1);
+				element.sendKeys(textValue);				
+				
+				By selectableText = By.xpath("//tr//td//span[text()='" + textValue + "']");
+				
+				chromeDriver.findElement(selectableText).click();
+			} else if ("date".equalsIgnoreCase(action)) {
+				System.out.println(element.getText()+"--------------------");
+				element.sendKeys(Keys.chord(Keys.CONTROL,"a", Keys.DELETE));
+				String textValue = readFile.getData(testCaseSheetNo, row, 1).replace("'", "");
+				element.sendKeys(textValue);				
+				
+				/*By selectableText = By.xpath("//span[contains(text(),'" + textValue + "')]");
+				
+				chromeDriver.findElement(selectableText).click();*/
 			} else {
 				findAction.applyAction(findProType.findPropertyType(propertyType, chromeDriver, propertyName), action,
 						null);
 			}
 		}
+		try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 
 	}
-	
+
 	@Test
 	public void addCompany() {
 		assertEquals(true, true);

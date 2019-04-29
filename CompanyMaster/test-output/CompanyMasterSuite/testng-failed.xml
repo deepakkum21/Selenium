@@ -5,18 +5,6 @@
   <parameter name="driverpath" value="src\\test\\resources\\driver\\chromedriver.exe"/>
   <parameter name="excelPath" value="src\\test\\resources\\excel\\CompanyMaster.xlsx"/>
   <parameter name="url" value="https://demo2.bpitechnologies.com"/>
-  <test thread-count="5" name="login(failed)">
-    <classes>
-      <class name="com.stpl.deepak.gtn.login.LoginTest">
-        <methods>
-          <include name="loginTest"/>
-          <include name="loadingDriver"/>
-          <include name="getExcelFile"/>
-          <include name="cleanUp"/>
-        </methods>
-      </class> <!-- com.stpl.deepak.gtn.login.LoginTest -->
-    </classes>
-  </test> <!-- login(failed) -->
   <test thread-count="5" name="companyAdd(failed)">
     <classes>
       <class name="com.stpl.deepak.gtn.companymaster.AddCompanyTest">

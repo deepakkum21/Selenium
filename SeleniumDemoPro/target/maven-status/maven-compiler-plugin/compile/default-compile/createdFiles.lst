@@ -6,5 +6,6 @@ com\deepak\stpl\selenium\gtn\Selenium_Grid_parallel.class
 com\deepak\stpl\selenium\FluentWaitInSelenium.class
 com\deepak\stpl\selenium\HandleDropBox.class
 com\deepak\stpl\selenium\FluentWaitInSelenium$1.class
+com\deepak\stpl\selenium\DropDown.class
 com\deepak\stpl\selenium\ImplicitWaitInSelenium.class
 com\deepak\stpl\selenium\DDTUsingExcel.class

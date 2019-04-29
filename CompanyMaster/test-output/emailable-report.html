@@ -9,38 +9,10 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">CompanyMasterSuite</th></tr>
-<tr><td><a href="#t0">login</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">103,193</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">companyAdd</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">37,599</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">4</th><th class="num">0</th><th class="num">0</th><th class="num">140,792</th><th colspan="2"></th></tr>
+<tr><td><a href="#t0">companyAdd</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">73,603</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">CompanyMasterSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">login &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.stpl.deepak.gtn.login.LoginTest</td><td><a href="#m0">cleanUp</a></td><td rowspan="1">1556460866841</td><td rowspan="1">13</td></tr><tr><th colspan="4">login &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.stpl.deepak.gtn.login.LoginTest</td><td><a href="#m1">loginTest</a></td><td rowspan="3">1556460829603</td><td rowspan="3">37233</td></tr><tr class="passedeven"><td><a href="#m2">loginTest</a></td></tr><tr class="passedeven"><td><a href="#m3">loginTest</a></td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">companyAdd &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.stpl.deepak.gtn.companymaster.AddCompanyTest</td><td><a href="#m4">addCompany</a></td><td rowspan="1">1556460902989</td><td rowspan="1">2</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">CompanyMasterSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">companyAdd &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.stpl.deepak.gtn.companymaster.AddCompanyTest</td><td><a href="#m0">addCompany</a></td><td rowspan="1">1556542444015</td><td rowspan="1">14</td></tr></tbody>
 </table>
-<h2>login</h2><h3 id="m0">com.stpl.deepak.gtn.login.LoginTest#cleanUp</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=74.0.3729.108)
-  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;
-System info: host: &apos;DEEPAK-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\deepak\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53055}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.108, webStorageEnabled: true}
-Session ID: 750de6afe46977f30759618e09510554
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions.deleteAllCookies(RemoteWebDriver.java:743)
-	at com.stpl.deepak.gtn.login.LoginTest.cleanUp(LoginTest.java:58)
-... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.stpl.deepak.gtn.login.LoginTest#loginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>john.smith1</td><td>askd</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.stpl.deepak.gtn.login.LoginTest#loginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>john.smith</td><td>test</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.stpl.deepak.gtn.login.LoginTest#loginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>john.smith</td><td>test1</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>companyAdd</h2><h3 id="m4">com.stpl.deepak.gtn.companymaster.AddCompanyTest#addCompany</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>companyAdd</h2><h3 id="m0">com.stpl.deepak.gtn.companymaster.AddCompanyTest#addCompany</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

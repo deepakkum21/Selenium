@@ -1,180 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="CompanyMasterSuite" duration-ms="140895" started-at="2019-04-28T14:12:43Z" finished-at="2019-04-28T14:15:04Z">
+  <suite name="CompanyMasterSuite" duration-ms="73603" started-at="2019-04-29T12:52:51Z" finished-at="2019-04-29T12:54:05Z">
     <groups>
     </groups>
-    <test name="login" duration-ms="103193" started-at="2019-04-28T14:12:43Z" finished-at="2019-04-28T14:14:26Z">
-      <class name="com.stpl.deepak.gtn.login.LoginTest">
-        <test-method status="PASS" signature="loadingDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stpl.deepak.gtn.login.LoginTest@56235b8e]" name="loadingDriver" is-config="true" duration-ms="5170" started-at="2019-04-28T14:12:43Z" finished-at="2019-04-28T14:12:48Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[webdriver.chrome.driver]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[src\\test\\resources\\driver\\chromedriver.exe]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[https://demo2.bpitechnologies.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loadingDriver -->
-        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.stpl.deepak.gtn.login.LoginTest@56235b8e]" name="loginTest" duration-ms="21296" started-at="2019-04-28T14:12:48Z" data-provider="getData" finished-at="2019-04-28T14:13:10Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[john.smith]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[test]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.stpl.deepak.gtn.login.LoginTest@56235b8e]" name="loginTest" duration-ms="39382" started-at="2019-04-28T14:13:10Z" data-provider="getData" finished-at="2019-04-28T14:13:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[john.smith]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[test1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.stpl.deepak.gtn.login.LoginTest@56235b8e]" name="loginTest" duration-ms="37233" started-at="2019-04-28T14:13:49Z" data-provider="getData" finished-at="2019-04-28T14:14:26Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[john.smith1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[askd]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="FAIL" signature="cleanUp()[pri:0, instance:com.stpl.deepak.gtn.login.LoginTest@56235b8e]" name="cleanUp" is-config="true" duration-ms="13" started-at="2019-04-28T14:14:26Z" finished-at="2019-04-28T14:14:26Z">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
-            <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=74.0.3729.108)
-  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
-System info: host: 'DEEPAK-PC', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\deepak\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53055}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.108, webStorageEnabled: true}
-Session ID: 750de6afe46977f30759618e09510554]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=74.0.3729.108)
-  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
-System info: host: 'DEEPAK-PC', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\deepak\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53055}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.108, webStorageEnabled: true}
-Session ID: 750de6afe46977f30759618e09510554
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions.deleteAllCookies(RemoteWebDriver.java:743)
-at com.stpl.deepak.gtn.login.LoginTest.cleanUp(LoginTest.java:58)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.TestRunner.afterRun(TestRunner.java:725)
-at org.testng.TestRunner.run(TestRunner.java:509)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanUp -->
-      </class> <!-- com.stpl.deepak.gtn.login.LoginTest -->
-    </test> <!-- login -->
-    <test name="companyAdd" duration-ms="37599" started-at="2019-04-28T14:14:26Z" finished-at="2019-04-28T14:15:04Z">
-      <class name="com.stpl.deepak.gtn.login.LoginTest">
-        <test-method status="PASS" signature="getExcelFile(java.lang.String)[pri:0, instance:com.stpl.deepak.gtn.login.LoginTest@56235b8e]" name="getExcelFile" is-config="true" duration-ms="2145" started-at="2019-04-28T14:12:41Z" finished-at="2019-04-28T14:12:43Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[src\\test\\resources\\excel\\CompanyMaster.xlsx]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getExcelFile -->
-        <test-method status="PASS" signature="getExcelFile(java.lang.String)[pri:0, instance:com.stpl.deepak.gtn.companymaster.AddCompanyTest@7b49cea0]" name="getExcelFile" is-config="true" duration-ms="172" started-at="2019-04-28T14:12:43Z" finished-at="2019-04-28T14:12:43Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[src\\test\\resources\\excel\\CompanyMaster.xlsx]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getExcelFile -->
-      </class> <!-- com.stpl.deepak.gtn.login.LoginTest -->
+    <test name="companyAdd" duration-ms="73603" started-at="2019-04-29T12:52:51Z" finished-at="2019-04-29T12:54:05Z">
       <class name="com.stpl.deepak.gtn.companymaster.AddCompanyTest">
-        <test-method status="PASS" signature="loadingDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stpl.deepak.gtn.companymaster.AddCompanyTest@7b49cea0]" name="loadingDriver" is-config="true" duration-ms="36019" started-at="2019-04-28T14:14:26Z" finished-at="2019-04-28T14:15:02Z">
+        <test-method status="PASS" signature="getExcelFile(java.lang.String)[pri:0, instance:com.stpl.deepak.gtn.companymaster.AddCompanyTest@544fe44c]" name="getExcelFile" is-config="true" duration-ms="494" started-at="2019-04-29T12:52:51Z" finished-at="2019-04-29T12:52:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[src\\test\\resources\\excel\\CompanyMaster.xlsx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getExcelFile -->
+        <test-method status="PASS" signature="loadingDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stpl.deepak.gtn.companymaster.AddCompanyTest@544fe44c]" name="loadingDriver" is-config="true" duration-ms="72253" started-at="2019-04-29T12:52:51Z" finished-at="2019-04-29T12:54:03Z">
           <params>
             <param index="0">
               <value>
@@ -195,11 +39,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadingDriver -->
-        <test-method status="PASS" signature="addCompany()[pri:0, instance:com.stpl.deepak.gtn.companymaster.AddCompanyTest@7b49cea0]" name="addCompany" duration-ms="2" started-at="2019-04-28T14:15:02Z" finished-at="2019-04-28T14:15:02Z">
+        <test-method status="PASS" signature="addCompany()[pri:0, instance:com.stpl.deepak.gtn.companymaster.AddCompanyTest@544fe44c]" name="addCompany" duration-ms="14" started-at="2019-04-29T12:54:04Z" finished-at="2019-04-29T12:54:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCompany -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.stpl.deepak.gtn.companymaster.AddCompanyTest@7b49cea0]" name="cleanUp" is-config="true" duration-ms="1573" started-at="2019-04-28T14:15:02Z" finished-at="2019-04-28T14:15:04Z">
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.stpl.deepak.gtn.companymaster.AddCompanyTest@544fe44c]" name="cleanUp" is-config="true" duration-ms="1301" started-at="2019-04-29T12:54:04Z" finished-at="2019-04-29T12:54:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
