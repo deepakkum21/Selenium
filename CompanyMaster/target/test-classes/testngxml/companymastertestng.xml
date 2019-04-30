@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name = "CompanyMasterSuite">
-<parameter name = "excelPath" value="src\\test\\resources\\excel\\CompanyMaster.xlsx"/> 
-<parameter name="driver" value="webdriver.chrome.driver"></parameter>
-<parameter name="driverpath" value="src\\test\\resources\\driver\\chromedriver.exe"></parameter>
-<parameter name="url" value="https://demo2.bpitechnologies.com"/>
-  <!--  <test name = "login">
-      <classes>
-         <class name = "com.stpl.deepak.gtn.login.LoginTest" />
-      </classes>
-   </test> -->
-   
-   <test name = "companyAdd">
-      <classes>
-         <class name = "com.stpl.deepak.gtn.companymaster.AddCompanyTest" />
-      </classes>
-   </test>
+<suite name="CompanyMasterSuite">
+	<parameter name="excelPath"
+		value="src\\test\\resources\\excel\\CompanyMaster.xlsx" />
+	<parameter name="driver" value="webdriver.chrome.driver"></parameter>
+	<parameter name="driverpath"
+		value="src\\test\\resources\\driver\\chromedriver.exe"></parameter>
+	<parameter name="url"
+		value="https://demo2.bpitechnologies.com" />
+	<!-- <test name = "login"> <classes> <class name = "com.stpl.deepak.gtn.login.LoginTest" 
+		/> </classes> </test> -->
+
+	<test name="companyAdd">
+		<classes>
+			<class name="com.stpl.deepak.gtn.companymaster.AddCompanyTest" />
+		</classes>
+	</test>
 </suite>

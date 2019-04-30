@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="CompanyMasterSuite" duration-ms="73603" started-at="2019-04-29T12:52:51Z" finished-at="2019-04-29T12:54:05Z">
+  <suite name="CompanyMasterSuite" duration-ms="51409" started-at="2019-04-30T12:14:04Z" finished-at="2019-04-30T12:14:55Z">
     <groups>
     </groups>
-    <test name="companyAdd" duration-ms="73603" started-at="2019-04-29T12:52:51Z" finished-at="2019-04-29T12:54:05Z">
+    <test name="companyAdd" duration-ms="51409" started-at="2019-04-30T12:14:04Z" finished-at="2019-04-30T12:14:55Z">
       <class name="com.stpl.deepak.gtn.companymaster.AddCompanyTest">
-        <test-method status="PASS" signature="getExcelFile(java.lang.String)[pri:0, instance:com.stpl.deepak.gtn.companymaster.AddCompanyTest@544fe44c]" name="getExcelFile" is-config="true" duration-ms="494" started-at="2019-04-29T12:52:51Z" finished-at="2019-04-29T12:52:51Z">
+        <test-method status="PASS" signature="getExcelFile(java.lang.String)[pri:0, instance:com.stpl.deepak.gtn.companymaster.AddCompanyTest@544fe44c]" name="getExcelFile" is-config="true" duration-ms="494" started-at="2019-04-30T12:14:03Z" finished-at="2019-04-30T12:14:04Z">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getExcelFile -->
-        <test-method status="PASS" signature="loadingDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stpl.deepak.gtn.companymaster.AddCompanyTest@544fe44c]" name="loadingDriver" is-config="true" duration-ms="72253" started-at="2019-04-29T12:52:51Z" finished-at="2019-04-29T12:54:03Z">
+        <test-method status="PASS" signature="loadingDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stpl.deepak.gtn.companymaster.AddCompanyTest@544fe44c]" name="loadingDriver" is-config="true" duration-ms="49909" started-at="2019-04-30T12:14:04Z" finished-at="2019-04-30T12:14:54Z">
           <params>
             <param index="0">
               <value>
@@ -39,11 +39,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadingDriver -->
-        <test-method status="PASS" signature="addCompany()[pri:0, instance:com.stpl.deepak.gtn.companymaster.AddCompanyTest@544fe44c]" name="addCompany" duration-ms="14" started-at="2019-04-29T12:54:04Z" finished-at="2019-04-29T12:54:04Z">
+        <test-method status="PASS" signature="addCompany()[pri:0, instance:com.stpl.deepak.gtn.companymaster.AddCompanyTest@544fe44c]" name="addCompany" duration-ms="12" started-at="2019-04-30T12:14:54Z" finished-at="2019-04-30T12:14:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCompany -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.stpl.deepak.gtn.companymaster.AddCompanyTest@544fe44c]" name="cleanUp" is-config="true" duration-ms="1301" started-at="2019-04-29T12:54:04Z" finished-at="2019-04-29T12:54:05Z">
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.stpl.deepak.gtn.companymaster.AddCompanyTest@544fe44c]" name="cleanUp" is-config="true" duration-ms="1458" started-at="2019-04-30T12:14:54Z" finished-at="2019-04-30T12:14:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
