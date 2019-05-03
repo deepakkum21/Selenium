@@ -9,6 +9,9 @@ public class FindAction {
 		if ("Entertext".equalsIgnoreCase(action)) {
 			element.sendKeys(content);
 		} else if ("Click".equalsIgnoreCase(action)) {
+			
+			/*JavascriptExecutor jse2 = (JavascriptExecutor)driver;
+			jse2.executeScript("arguments[0].scrollIntoView()", element);*/
 			element.click();
 		} else if ("clear".equalsIgnoreCase(action)) {
 			element.clear();

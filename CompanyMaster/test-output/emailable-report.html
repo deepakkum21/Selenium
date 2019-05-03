@@ -9,10 +9,54 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">CompanyMasterSuite</th></tr>
-<tr><td><a href="#t0">companyAdd</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">51,409</td><td></td><td></td></tr>
+<tr><td><a href="#t0">cfpAdd</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">57,892</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">CompanyMasterSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">companyAdd &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.stpl.deepak.gtn.companymaster.AddCompanyTest</td><td><a href="#m0">addCompany</a></td><td rowspan="1">1556626494373</td><td rowspan="1">12</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">CompanyMasterSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">cfpAdd &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.stpl.deepak.gtn.companymaster.AddCompanyTest</td><td><a href="#m0">loadingDriver</a></td><td rowspan="1">1556879447719</td><td rowspan="1">57862</td></tr><tr><th colspan="4">cfpAdd &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">com.stpl.deepak.gtn.companymaster.AddCompanyTest</td><td><a href="#m1">cleanUp</a></td><td rowspan="1">1556879505608</td><td rowspan="1">0</td></tr><tr><th colspan="4">cfpAdd &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.stpl.deepak.gtn.companymaster.AddCompanyTest</td><td><a href="#m2">addCompany</a></td><td rowspan="1">1556879505604</td><td rowspan="1">0</td></tr></tbody>
 </table>
-<h2>companyAdd</h2><h3 id="m0">com.stpl.deepak.gtn.companymaster.AddCompanyTest#addCompany</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>cfpAdd</h2><h3 id="m0">com.stpl.deepak.gtn.companymaster.AddCompanyTest#loadingDriver</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>webdriver.chrome.driver</td><td>src\\test\\resources\\driver\\chromedriver.exe</td><td>https://jnj-test.bpitechnologies.com/</td><td>3</td></tr><tr><th colspan="4">Exception</th></tr><tr><td colspan="4"><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;tr class=&quot;v-grid-row&quot; role=&quot;rowheader&quot; style=&quot;width: 1677px;&quot;&gt;...&lt;/tr&gt; is not clickable at point (536, 372). Other element would receive the click: &lt;th class=&quot;v-grid-cell sortable&quot; role=&quot;columnheader&quot; colspan=&quot;1&quot; style=&quot;height: 38px; width: 221px;&quot; aria-sort=&quot;none&quot;&gt;...&lt;/th&gt;
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;
+System info: host: &apos;STPLDEV57&apos;, ip: &apos;10.4.48.210&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\DEEPAK~1.000\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:56544}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: f28db442e2d0ed4a0477902377f546ca
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.stpl.deepak.gtn.utlity.FindAction.applyAction(FindAction.java:15)
+	at com.stpl.deepak.gtn.companymaster.AddCompanyTest.loadingDriver(AddCompanyTest.java:103)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.stpl.deepak.gtn.companymaster.AddCompanyTest#cleanUp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.stpl.deepak.gtn.companymaster.AddCompanyTest#addCompany</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;tr class=&quot;v-grid-row&quot; role=&quot;rowheader&quot; style=&quot;width: 1677px;&quot;&gt;...&lt;/tr&gt; is not clickable at point (536, 372). Other element would receive the click: &lt;th class=&quot;v-grid-cell sortable&quot; role=&quot;columnheader&quot; colspan=&quot;1&quot; style=&quot;height: 38px; width: 221px;&quot; aria-sort=&quot;none&quot;&gt;...&lt;/th&gt;
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;
+System info: host: &apos;STPLDEV57&apos;, ip: &apos;10.4.48.210&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\DEEPAK~1.000\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:56544}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: f28db442e2d0ed4a0477902377f546ca
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.stpl.deepak.gtn.utlity.FindAction.applyAction(FindAction.java:15)
+	at com.stpl.deepak.gtn.companymaster.AddCompanyTest.loadingDriver(AddCompanyTest.java:103)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

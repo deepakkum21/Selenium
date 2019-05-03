@@ -8,13 +8,21 @@
 	<parameter name="driverpath"
 		value="src\\test\\resources\\driver\\chromedriver.exe"></parameter>
 	<parameter name="url"
-		value="https://demo2.bpitechnologies.com" />
+		value="https://jnj-test.bpitechnologies.com/" />
 	<!-- <test name = "login"> <classes> <class name = "com.stpl.deepak.gtn.login.LoginTest" 
 		/> </classes> </test> -->
 
-	<test name="companyAdd">
+	<!-- <test name="companyAdd">
+	<parameter name = "testCaseSheetNo" value="2"/>
+		<classes>
+			<class name="com.stpl.deepak.gtn.companymaster.AddCompanyTest" />
+		</classes>
+	</test> -->
+	
+	<test name="cfpAdd">
+	<parameter name = "testCaseSheetNo" value="3"/> 
 		<classes>
 			<class name="com.stpl.deepak.gtn.companymaster.AddCompanyTest" />
 		</classes>
 	</test>
-</suite>
+</suite>	 

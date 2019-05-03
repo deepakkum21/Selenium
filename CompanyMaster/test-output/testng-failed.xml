@@ -4,8 +4,9 @@
   <parameter name="driver" value="webdriver.chrome.driver"/>
   <parameter name="driverpath" value="src\\test\\resources\\driver\\chromedriver.exe"/>
   <parameter name="excelPath" value="src\\test\\resources\\excel\\CompanyMaster.xlsx"/>
-  <parameter name="url" value="https://demo2.bpitechnologies.com"/>
-  <test thread-count="5" name="companyAdd(failed)">
+  <parameter name="url" value="https://jnj-test.bpitechnologies.com/"/>
+  <test thread-count="5" name="cfpAdd(failed)">
+    <parameter name="testCaseSheetNo" value="3"/>
     <classes>
       <class name="com.stpl.deepak.gtn.companymaster.AddCompanyTest">
         <methods>
@@ -16,5 +17,5 @@
         </methods>
       </class> <!-- com.stpl.deepak.gtn.companymaster.AddCompanyTest -->
     </classes>
-  </test> <!-- companyAdd(failed) -->
+  </test> <!-- cfpAdd(failed) -->
 </suite> <!-- Failed suite [CompanyMasterSuite] -->
