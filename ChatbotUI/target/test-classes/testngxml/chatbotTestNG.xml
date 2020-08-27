@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="ChatBotUISuite">
+	<parameter name="excelPath"
+		value="src\\test\\resources\\excel\\ChatbotUI.xlsx" />
+	<parameter name="driver" value="webdriver.chrome.driver"></parameter>
+	<parameter name="driverpath"
+		value="src\\test\\resources\\chromedriver_win32\\chromedriver.exe"></parameter>
+	<parameter name="url"
+		value="http://localhost:4200/" />
+	
+	<test name="outlookTest">
+	<parameter name = "testCaseSheetNo" value="1"/> 
+		<classes>
+			<class name="com.isl.rnd.chatbotui.ChatBotUI" />
+		</classes>
+	</test>
+	
+	<test name="printerTest">
+	<parameter name = "testCaseSheetNo" value="0"/> 
+		<classes>
+			<class name="com.isl.rnd.chatbotui.Printer" />
+		</classes>
+	</test>
+	
+	<test name="internetExplorerTest">
+	<parameter name = "testCaseSheetNo" value="2"/> 
+		<classes>
+			<class name="com.isl.rnd.chatbotui.InternetExplorer" />
+		</classes>
+	</test>
+	
+	<test name="mobilityTest">
+	<parameter name = "testCaseSheetNo" value="3"/> 
+		<classes>
+			<class name="com.isl.rnd.chatbotui.Mobility" />
+		</classes>
+	</test>
+</suite>	 

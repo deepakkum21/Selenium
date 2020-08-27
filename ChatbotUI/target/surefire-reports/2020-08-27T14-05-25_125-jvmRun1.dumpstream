@@ -1,0 +1,4 @@
+# Created at 2020-08-27T14:05:27.655
+
+Two tests in the same suite [ChatBotUISuite] cannot have the same name: internetExplorerTest
+
