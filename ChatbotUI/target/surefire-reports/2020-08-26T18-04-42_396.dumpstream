@@ -1,4 +1,0 @@
-# Created at 2020-08-26T18:04:43.022
-Boot Manifest-JAR contains absolute paths in classpath 'F:\gitrepos\Selenium\ChatbotUI\target\test-classes'
-Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
-

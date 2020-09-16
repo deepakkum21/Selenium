@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="ChatBotUISuite" duration-ms="568830" started-at="2020-08-27T09:21:45Z" finished-at="2020-08-27T09:31:13Z">
+  <suite name="ChatBotUISuite" duration-ms="595755" started-at="2020-09-16T14:21:53Z" finished-at="2020-09-16T14:31:49Z">
     <groups>
     </groups>
-    <test name="outlookTest" duration-ms="123572" started-at="2020-08-27T09:21:45Z" finished-at="2020-08-27T09:23:48Z">
+    <test name="outlookTest" duration-ms="124825" started-at="2020-09-16T14:21:53Z" finished-at="2020-09-16T14:23:58Z">
       <class name="com.isl.rnd.chatbotui.ChatBotUI">
-        <test-method status="PASS" signature="loadingDriver(java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:com.isl.rnd.chatbotui.ChatBotUI@1bce4f0a]" name="loadingDriver" is-config="true" duration-ms="1" started-at="2020-08-27T09:21:45Z" finished-at="2020-08-27T09:21:45Z">
+        <test-method status="PASS" signature="loadingDriver(java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:com.isl.rnd.chatbotui.ChatBotUI@1bce4f0a]" name="loadingDriver" is-config="true" duration-ms="1" started-at="2020-09-16T14:21:54Z" finished-at="2020-09-16T14:21:54Z">
           <params>
             <param index="0">
               <value>
@@ -21,7 +21,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[http://localhost:4200/]]>
+                <![CDATA[http://10.132.10.166:4200/]]>
               </value>
             </param>
             <param index="3">
@@ -33,7 +33,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadingDriver -->
-        <test-method status="PASS" signature="testOutlook(java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:com.isl.rnd.chatbotui.ChatBotUI@1bce4f0a]" name="testOutlook" duration-ms="123510" started-at="2020-08-27T09:21:45Z" finished-at="2020-08-27T09:23:48Z">
+        <test-method status="PASS" signature="testOutlook(java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:com.isl.rnd.chatbotui.ChatBotUI@1bce4f0a]" name="testOutlook" duration-ms="124776" started-at="2020-09-16T14:21:54Z" finished-at="2020-09-16T14:23:58Z">
           <params>
             <param index="0">
               <value>
@@ -47,7 +47,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[http://localhost:4200/]]>
+                <![CDATA[http://10.132.10.166:4200/]]>
               </value>
             </param>
             <param index="3">
@@ -59,15 +59,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOutlook -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.isl.rnd.chatbotui.ChatBotUI@1bce4f0a]" name="cleanUp" is-config="true" duration-ms="1" started-at="2020-08-27T09:23:48Z" finished-at="2020-08-27T09:23:48Z">
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.isl.rnd.chatbotui.ChatBotUI@1bce4f0a]" name="cleanUp" is-config="true" duration-ms="1" started-at="2020-09-16T14:23:58Z" finished-at="2020-09-16T14:23:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
       </class> <!-- com.isl.rnd.chatbotui.ChatBotUI -->
     </test> <!-- outlookTest -->
-    <test name="printerTest" duration-ms="79117" started-at="2020-08-27T09:23:48Z" finished-at="2020-08-27T09:25:07Z">
+    <test name="printerTest" duration-ms="91519" started-at="2020-09-16T14:23:58Z" finished-at="2020-09-16T14:25:30Z">
       <class name="com.isl.rnd.chatbotui.Printer">
-        <test-method status="PASS" signature="loadingDriver(java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:com.isl.rnd.chatbotui.Printer@598067a5]" name="loadingDriver" is-config="true" duration-ms="4" started-at="2020-08-27T09:23:48Z" finished-at="2020-08-27T09:23:48Z">
+        <test-method status="PASS" signature="loadingDriver(java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:com.isl.rnd.chatbotui.Printer@598067a5]" name="loadingDriver" is-config="true" duration-ms="0" started-at="2020-09-16T14:23:58Z" finished-at="2020-09-16T14:23:58Z">
           <params>
             <param index="0">
               <value>
@@ -81,7 +81,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[http://localhost:4200/]]>
+                <![CDATA[http://10.132.10.166:4200/]]>
               </value>
             </param>
             <param index="3">
@@ -93,7 +93,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadingDriver -->
-        <test-method status="PASS" signature="printerTest(java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:com.isl.rnd.chatbotui.Printer@598067a5]" name="printerTest" duration-ms="79109" started-at="2020-08-27T09:23:48Z" finished-at="2020-08-27T09:25:07Z">
+        <test-method status="PASS" signature="printerTest(java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:com.isl.rnd.chatbotui.Printer@598067a5]" name="printerTest" duration-ms="91512" started-at="2020-09-16T14:23:58Z" finished-at="2020-09-16T14:25:30Z">
           <params>
             <param index="0">
               <value>
@@ -107,7 +107,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[http://localhost:4200/]]>
+                <![CDATA[http://10.132.10.166:4200/]]>
               </value>
             </param>
             <param index="3">
@@ -119,15 +119,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printerTest -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.isl.rnd.chatbotui.Printer@598067a5]" name="cleanUp" is-config="true" duration-ms="1" started-at="2020-08-27T09:25:07Z" finished-at="2020-08-27T09:25:07Z">
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.isl.rnd.chatbotui.Printer@598067a5]" name="cleanUp" is-config="true" duration-ms="0" started-at="2020-09-16T14:25:30Z" finished-at="2020-09-16T14:25:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
       </class> <!-- com.isl.rnd.chatbotui.Printer -->
     </test> <!-- printerTest -->
-    <test name="internetExplorerTest" duration-ms="183553" started-at="2020-08-27T09:25:07Z" finished-at="2020-08-27T09:28:11Z">
+    <test name="internetExplorerTest" duration-ms="192779" started-at="2020-09-16T14:25:30Z" finished-at="2020-09-16T14:28:43Z">
       <class name="com.isl.rnd.chatbotui.InternetExplorer">
-        <test-method status="PASS" signature="loadingDriver(java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:com.isl.rnd.chatbotui.InternetExplorer@6500df86]" name="loadingDriver" is-config="true" duration-ms="0" started-at="2020-08-27T09:25:07Z" finished-at="2020-08-27T09:25:07Z">
+        <test-method status="PASS" signature="loadingDriver(java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:com.isl.rnd.chatbotui.InternetExplorer@6500df86]" name="loadingDriver" is-config="true" duration-ms="1" started-at="2020-09-16T14:25:30Z" finished-at="2020-09-16T14:25:30Z">
           <params>
             <param index="0">
               <value>
@@ -141,7 +141,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[http://localhost:4200/]]>
+                <![CDATA[http://10.132.10.166:4200/]]>
               </value>
             </param>
             <param index="3">
@@ -153,7 +153,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadingDriver -->
-        <test-method status="PASS" signature="printerTest(java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:com.isl.rnd.chatbotui.InternetExplorer@6500df86]" name="printerTest" duration-ms="183549" started-at="2020-08-27T09:25:07Z" finished-at="2020-08-27T09:28:11Z">
+        <test-method status="PASS" signature="printerTest(java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:com.isl.rnd.chatbotui.InternetExplorer@6500df86]" name="printerTest" duration-ms="192768" started-at="2020-09-16T14:25:30Z" finished-at="2020-09-16T14:28:43Z">
           <params>
             <param index="0">
               <value>
@@ -167,7 +167,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[http://localhost:4200/]]>
+                <![CDATA[http://10.132.10.166:4200/]]>
               </value>
             </param>
             <param index="3">
@@ -179,15 +179,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printerTest -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.isl.rnd.chatbotui.InternetExplorer@6500df86]" name="cleanUp" is-config="true" duration-ms="0" started-at="2020-08-27T09:28:11Z" finished-at="2020-08-27T09:28:11Z">
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.isl.rnd.chatbotui.InternetExplorer@6500df86]" name="cleanUp" is-config="true" duration-ms="1" started-at="2020-09-16T14:28:43Z" finished-at="2020-09-16T14:28:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
       </class> <!-- com.isl.rnd.chatbotui.InternetExplorer -->
     </test> <!-- internetExplorerTest -->
-    <test name="mobilityTest" duration-ms="182447" started-at="2020-08-27T09:28:11Z" finished-at="2020-08-27T09:31:13Z">
+    <test name="mobilityTest" duration-ms="186550" started-at="2020-09-16T14:28:43Z" finished-at="2020-09-16T14:31:49Z">
       <class name="com.isl.rnd.chatbotui.Mobility">
-        <test-method status="PASS" signature="loadingDriver(java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:com.isl.rnd.chatbotui.Mobility@7085bdee]" name="loadingDriver" is-config="true" duration-ms="1" started-at="2020-08-27T09:28:11Z" finished-at="2020-08-27T09:28:11Z">
+        <test-method status="PASS" signature="loadingDriver(java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:com.isl.rnd.chatbotui.Mobility@7085bdee]" name="loadingDriver" is-config="true" duration-ms="2" started-at="2020-09-16T14:28:43Z" finished-at="2020-09-16T14:28:43Z">
           <params>
             <param index="0">
               <value>
@@ -201,7 +201,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[http://localhost:4200/]]>
+                <![CDATA[http://10.132.10.166:4200/]]>
               </value>
             </param>
             <param index="3">
@@ -213,7 +213,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadingDriver -->
-        <test-method status="PASS" signature="printerTest(java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:com.isl.rnd.chatbotui.Mobility@7085bdee]" name="printerTest" duration-ms="182444" started-at="2020-08-27T09:28:11Z" finished-at="2020-08-27T09:31:13Z">
+        <test-method status="PASS" signature="printerTest(java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:com.isl.rnd.chatbotui.Mobility@7085bdee]" name="printerTest" duration-ms="186542" started-at="2020-09-16T14:28:43Z" finished-at="2020-09-16T14:31:49Z">
           <params>
             <param index="0">
               <value>
@@ -227,7 +227,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[http://localhost:4200/]]>
+                <![CDATA[http://10.132.10.166:4200/]]>
               </value>
             </param>
             <param index="3">
@@ -239,13 +239,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printerTest -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.isl.rnd.chatbotui.Mobility@7085bdee]" name="cleanUp" is-config="true" duration-ms="1" started-at="2020-08-27T09:31:13Z" finished-at="2020-08-27T09:31:13Z">
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.isl.rnd.chatbotui.Mobility@7085bdee]" name="cleanUp" is-config="true" duration-ms="2" started-at="2020-09-16T14:31:49Z" finished-at="2020-09-16T14:31:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
       </class> <!-- com.isl.rnd.chatbotui.Mobility -->
       <class name="com.isl.rnd.chatbotui.ChatBotUI">
-        <test-method status="PASS" signature="getExcelFile(java.lang.String)[pri:0, instance:com.isl.rnd.chatbotui.ChatBotUI@1bce4f0a]" name="getExcelFile" is-config="true" duration-ms="998" started-at="2020-08-27T09:21:43Z" finished-at="2020-08-27T09:21:44Z">
+        <test-method status="PASS" signature="getExcelFile(java.lang.String)[pri:0, instance:com.isl.rnd.chatbotui.ChatBotUI@1bce4f0a]" name="getExcelFile" is-config="true" duration-ms="975" started-at="2020-09-16T14:21:52Z" finished-at="2020-09-16T14:21:53Z">
           <params>
             <param index="0">
               <value>
@@ -256,7 +256,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getExcelFile -->
-        <test-method status="PASS" signature="getExcelFile(java.lang.String)[pri:0, instance:com.isl.rnd.chatbotui.Printer@598067a5]" name="getExcelFile" is-config="true" duration-ms="234" started-at="2020-08-27T09:21:44Z" finished-at="2020-08-27T09:21:44Z">
+        <test-method status="PASS" signature="getExcelFile(java.lang.String)[pri:0, instance:com.isl.rnd.chatbotui.Printer@598067a5]" name="getExcelFile" is-config="true" duration-ms="195" started-at="2020-09-16T14:21:53Z" finished-at="2020-09-16T14:21:53Z">
           <params>
             <param index="0">
               <value>
@@ -267,7 +267,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getExcelFile -->
-        <test-method status="PASS" signature="getExcelFile(java.lang.String)[pri:0, instance:com.isl.rnd.chatbotui.InternetExplorer@6500df86]" name="getExcelFile" is-config="true" duration-ms="245" started-at="2020-08-27T09:21:44Z" finished-at="2020-08-27T09:21:44Z">
+        <test-method status="PASS" signature="getExcelFile(java.lang.String)[pri:0, instance:com.isl.rnd.chatbotui.InternetExplorer@6500df86]" name="getExcelFile" is-config="true" duration-ms="140" started-at="2020-09-16T14:21:53Z" finished-at="2020-09-16T14:21:53Z">
           <params>
             <param index="0">
               <value>
@@ -278,7 +278,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getExcelFile -->
-        <test-method status="PASS" signature="getExcelFile(java.lang.String)[pri:0, instance:com.isl.rnd.chatbotui.Mobility@7085bdee]" name="getExcelFile" is-config="true" duration-ms="144" started-at="2020-08-27T09:21:44Z" finished-at="2020-08-27T09:21:45Z">
+        <test-method status="PASS" signature="getExcelFile(java.lang.String)[pri:0, instance:com.isl.rnd.chatbotui.Mobility@7085bdee]" name="getExcelFile" is-config="true" duration-ms="165" started-at="2020-09-16T14:21:53Z" finished-at="2020-09-16T14:21:53Z">
           <params>
             <param index="0">
               <value>

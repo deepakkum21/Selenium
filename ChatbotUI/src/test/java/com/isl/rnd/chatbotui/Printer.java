@@ -40,7 +40,7 @@ public class Printer {
 	public void loadingDriver(String driver, String driverpath, String url, int sheetNo) throws InterruptedException {
 	}
 
-	@Test
+	@Test(invocationCount = 1)
 	@Parameters({ "driver", "driverpath", "url", "testCaseSheetNo" })
 	public void printerTest(String driver, String driverpath, String url, int sheetNo) {
 		testCaseSheetNo = sheetNo;

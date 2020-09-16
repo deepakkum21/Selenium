@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="ChatBotUISuite">
+<suite name="ChatBotUISuite" parallel="tests" thread-count="1">
 	<parameter name="excelPath"
 		value="src\\test\\resources\\excel\\ChatbotUI.xlsx" />
 	<parameter name="driver" value="webdriver.chrome.driver"></parameter>
 	<parameter name="driverpath"
 		value="src\\test\\resources\\chromedriver_win32\\chromedriver.exe"></parameter>
 	<parameter name="url"
-		value="http://localhost:4200/" />
+		value="http://10.132.10.166:4200/" />
 	
 	<test name="outlookTest">
 	<parameter name = "testCaseSheetNo" value="1"/> 

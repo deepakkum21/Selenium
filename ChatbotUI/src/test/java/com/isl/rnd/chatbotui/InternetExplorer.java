@@ -58,7 +58,7 @@ public class InternetExplorer {
 
 	}
 
-	@Test
+	@Test(invocationCount = 1)
 	@Parameters({ "driver", "driverpath", "url", "testCaseSheetNo" })
 	public void printerTest(String driver, String driverpath, String url, int sheetNo) {
 		testCaseSheetNo = sheetNo;

@@ -8,6 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
@@ -58,11 +59,11 @@ public class ChatBotUI {
 
 	}
 
-	@Test
+	@Test(invocationCount = 1)
 	@Parameters({ "driver", "driverpath", "url", "testCaseSheetNo" })
 	public void testOutlook(String driver, String driverpath, String url, int sheetNo) {
 		testCaseSheetNo = sheetNo;
-		//System.out.println(testCaseSheetNo);
+		// System.out.println(testCaseSheetNo);
 		noOfrows = readFile.getRowCount(testCaseSheetNo);
 //		System.out.println(noOfrows);
 //		System.out.println(driver + "   " + driverpath);
@@ -78,6 +79,8 @@ public class ChatBotUI {
 		chromeDriver.manage().deleteAllCookies();
 		chromeDriver.get(url);
 		chromeDriver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		Actions mouseAction = new Actions(chromeDriver);
+
 		for (int row = 1; row < noOfrows; row++) {
 			String skipTestCase = readFile.getData(testCaseSheetNo, row, 1);
 			if ("No".equalsIgnoreCase(skipTestCase)) {
@@ -91,22 +94,23 @@ public class ChatBotUI {
 					findAction.applyAction(element, action, readFile.getData(testCaseSheetNo, row, 2).replace("'", ""));
 				} else if ("Comparetext".equalsIgnoreCase(action)) {
 					String readText = readFile.getData(testCaseSheetNo, row, 2);
-					System.out.println(readText + "      jjjjjjjjjjjjjjjjjjjjjjjj     " +element.getAttribute(propertyName));
+					System.out.println(
+							readText + "      jjjjjjjjjjjjjjjjjjjjjjjj     " + element.getAttribute(propertyName));
 				} else
 
 				{
-					//System.out.println("row       "+ row + " action  "+ action );
+					// System.out.println("row "+ row + " action "+ action );
 //					Actions actions = new Actions(chromeDriver);
 //					actions.moveToElement(element).click(element).build().perform();
 					findAction.applyAction(element, action, null);
-					if(readFile.getData(testCaseSheetNo, row, 6) != null) {
-						if(readFile.getData(testCaseSheetNo, row, 6).equalsIgnoreCase("yes")) {
-								try {
-									Thread.sleep(10000);
-								} catch (InterruptedException e) {
-									// TODO Auto-generated catch block
-									e.printStackTrace();
-								}
+					if (readFile.getData(testCaseSheetNo, row, 6) != null) {
+						if (readFile.getData(testCaseSheetNo, row, 6).equalsIgnoreCase("yes")) {
+							try {
+								Thread.sleep(10000);
+							} catch (InterruptedException e) {
+								// TODO Auto-generated catch block
+								e.printStackTrace();
+							}
 						}
 					}
 
